@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -37,7 +38,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         switch (id){
             case R.id.item1:
-                Toast.makeText(getApplicationContext(),"Item 1 Selected",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(getApplicationContext(),HomeActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.item2:
                 Toast.makeText(getApplicationContext(),"Item 2 Selected",Toast.LENGTH_LONG).show();
