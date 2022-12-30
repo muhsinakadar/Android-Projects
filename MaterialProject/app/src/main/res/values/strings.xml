@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MaterialProject</string>
+    <string name="OpenDrawer">Open Navigation Drawer</string>
+    <string name="CloseDrawer">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="a_fragment">Home Fragment</string>
+    <string name="notes_fragment">Notes Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
