@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavFragment"
+    android:background="#FF9800"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/fav">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/content_main"/>
+
+    <ProgressBar
+        android:id="@+id/pgBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/pbBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Progress Bar"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/pbBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Linear Progress Bar"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/pb2ProgessBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress"/>
+
+</LinearLayout>

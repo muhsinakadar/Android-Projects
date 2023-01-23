@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/save_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="hello_Save_fragment"
+            android:textColor="@color/white"/>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8sp"
+        app:cardMaxElevation="10sp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/save_card_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/save_course_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/save_card_image"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Demo Place Holder"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/save_course_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/save_card_image"
+                android:layout_below="@+id/save_course_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:drawableStartCompat="@drawable/ic_baseline_star_rate_24"/>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+<!--    <include layout="@layout/bottom_nav"/>-->
+</RelativeLayout>

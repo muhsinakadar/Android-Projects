@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+<!--    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+<!--        &lt;!&ndash;In textview we will be adding the text that i have-->
+<!--            added earlier in strings.xml file.This is simply the-->
+<!--            the content to be scrolled &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:lineSpacingExtra="8sp"-->
+<!--            android:padding="16dp"-->
+<!--            android:text="@string/content"-->
+<!--            android:textSize="20sp"-->
+<!--            android:layout_marginBottom="50dp"-->
+<!--            />-->
+<!--    </androidx.core.widget.NestedScrollView>-->
+
+</FrameLayout>

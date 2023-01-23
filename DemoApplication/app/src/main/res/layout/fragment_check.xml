@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckFragment"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick a date by clicking the Button"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/display_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_title"
+        android:text="Date"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/display_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/display_date"
+        android:text="Time"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/date_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/display_time"
+        android:backgroundTint="#8BC34A"
+        android:text="Pick a date"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/time_btn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/display_time"
+        android:layout_toRightOf="@+id/date_btn"
+        android:backgroundTint="#8BC34A"
+        android:text="Pick a Time"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        />
+
+</RelativeLayout>

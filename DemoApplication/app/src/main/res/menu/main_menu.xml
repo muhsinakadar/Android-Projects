@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+
+            <item android:id="@+id/cart_item"
+                android:title="CART"
+                android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/save_item"
+                android:title="SAVE"
+                android:icon="@drawable/ic_baseline_save_alt_24"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/check_item"
+                android:title="Check"
+                android:icon="@drawable/ic_baseline_check_circle_24"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+    </item>
+</menu>
